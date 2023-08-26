@@ -1,0 +1,7 @@
+###########################
+#  Portal general config  #
+###########################
+
+# ファイル名称 / file name
+fileName:
+  portalData: "PortalData.json"

@@ -1,0 +1,7 @@
+name: Portal
+version: '${version}'
+main: pro.freeserver.alphakun.plugin.portal.Portal
+api-version: '1.20'
+authors: [alphakun]
+description: teleport plugin
+website: freeserver.pro
