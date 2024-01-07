@@ -4,4 +4,30 @@
 
 # ファイル名称 / file name
 fileName:
-  portalData: "PortalData.json"
+  portalData: "PortalData"
+
+
+# テレポート共通設定 / general teleport settings
+generalSettings:
+  teleportSound: ENTITY_ENDERMAN_TELEPORT
+  pluginColor: "#5ababa"
+  vaultEnable: true         # Vaultの設定を有効化
+  freeTeleportDistance: -1  # 無料でテレポートできる半径を指定-1で無効(Vaultの導入必須)
+
+# メッセージ設定 / message settings
+messageSettings:
+  helpMessageList: # /portalコマンドにて表示されるメッセージの設定
+    - "======§5[§r Portal §5]§r======"
+    - "§5/portal §r: このヘルプを表示"
+    - "§5/portal §9{場所名} §r: 登録されたテレポート先にテレポート"
+    - "§5/portal §atp §9{場所名} §r: 登録されたテレポート先にテレポート"
+    - "§5/portal §alist §r: 登録されたテレポート先リストを表示"
+    - "§5/portal §asetTP §9{場所名} §b[public] §r: テレポート先を登録(privateは個人、publicの場合は全体共有で登録される)"
+    - "§5/portal §aremove §9{場所名} §r: テレポート先を削除"
+  setTPSuccessfulMessage: "§aテレポート登録に成功しました。"
+  teleportSuccessfulMessage: "§aにテレポートしました。"
+  teleportFailMessage: "§cへのテレポートに失敗しました。"
+  nameDuplicateErrorMessage: "§cその名前はすでに設定されています。"
+  teleportRemoveSuccessfulMessage: "§aを削除しました。"
+  teleportRemoveFailMessage: "§cを削除できませんでした。"
+  syntaxErrorMessage: "§c構文が間違っています。"
